@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Sign-up form</title>
+        <link href="styles.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="container">
+            <section class="photo">
+                <div class="band">
+                    <img src="img/potato.png" alt="potato" class="potato">
+                    <h1>POTATOES</h1>
+                </div>
+                <p class="credit">Photo by <a href="https://www.pexels.com/photo/brown-potatoes-on-brown-wooden-table-7543198/">Daniel Dan</a> on <a href=https://www.pexels.com>Pexels</a></p>
+            </section>
+            <section class="right-side">
+                <div class="header">
+                    <h3>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</h3>
+                    <h3>You <em>know</em> you want to.</h3>
+                </div>
+                <form class="form" action="" method="get" id="signup">
+                    <h3>Let's do this!</h3>
+                    <div class="inputs">
+                        <div class="input-field">
+                            <label for="firstName">First Name</label>
+                            <input type="text" name="firstName" id="lastName" required>
+                        </div>
+                        <div class="input-field">
+                            <label for="lastName">Last Name</label>
+                            <input type="text" name="lastName" id="lastname" required>
+                        </div>
+                        <div class="input-field">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" required>
+                        </div>
+                        <div class="input-field">
+                            <label for="tel">Phone Number</label>
+                            <input type="tel" name="tel" id="tel">
+                        </div>
+                        <div class="input-field">
+                            <label for="password">Password</label>
+                            <input type="password" name="password" id="password" required>
+                        </div>
+                        <div class="input-field">
+                            <label for="confPassword">Confirm Password</label>
+                            <input type="password" name="confPassword" id="confPassword" required>
+                        </div>
+                    </div>
+                </form>
+                <div class="footer">
+                    <button type="submit" class="button">Create Account</button>
+                    <p>Already have an account? <a href="#">Log in</a></p>
+                </div>
+            </section>
+        </div>
+    </body>
+</html>
